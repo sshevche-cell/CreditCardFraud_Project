@@ -3,7 +3,12 @@ Sviatoslav Shevchenko, DS_210 Final Project
 
 
 ### Project Outline
-In this project I aim to perform credit card fraud detection using the PageRank Algorithmn in Rust. The project is organized into three main modules: "csv_reader", "pagerank", and "main". 
+
+In this project I aim to perform credit card fraud detection using the PageRank Algorithmn in Rust. The project is organized into three main modules: "csv_reader", "pagerank", and "main".
+
+#### Dataset 
+The project utilizes a challenging dataset, described by the authors as “unbalanced” due to only 0.172% of the data comprising of fraudulent credit card transactions. Additionally, this dataset has more than 280,000 individual transactions, making it the largest dataset I worked with until now. Most of the features of the transactions are transformed (to numerical values) because of PCA (Principal Component Analysis) due to confidentiality concerns, this would most likely require me to test for multiple features and compare them, only allowing me to suspect what the features from V1 to V28 mean. The only features not transformed are Time, Amount and Class (fraudulent or not).      
+link: https://www.kaggle.com/datasets/joebeachcapital/credit-card-fraud
 
 #### 1. csv_reader Module
 **This module handles reading the credit card dataset from a CSV file and creating a test dataset for the fraud detection algorithm.**
@@ -30,9 +35,18 @@ In this project I aim to perform credit card fraud detection using the PageRank 
 **Initializing and Running PageRank**:    Initializes a credit card graph, populates edges, and runs the PageRank algorithm using adjustable parameters.        
 **Identifying Fraudulent Transactions**:    Applies the fraud identification logic based on the calculated PageRank scores and evaluates predictions.   
 **Evaluation Metrics**:    The code calculates and prints precision, recall, and F1 score to evaluate the model's performance in identifying fraudulent transactions.
+**Test CSV Reading**:    Validate CSV file reading.
 
-### Results Visualization
+#### 4. Tests
+**The main function orchestrates the entire credit card fraud detection process.**
+**Test CSV Reading**:    Validate CSV file reading.
+**Test Fraudulent Identification**:    Verify accuracy in identifying fraud.
 
 
+#### Results Visualization:
+You can run the project from the main function, it has some adjustable parameters that the user can adjust before running main. I have provided screenshots of an example result output in this repository. Mind that the code might need some time to run due to teh size of the dataset. 
+
+
+#### Limitations and Future Directions 
 
 
