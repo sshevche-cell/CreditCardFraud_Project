@@ -44,9 +44,9 @@ link: https://www.kaggle.com/datasets/joebeachcapital/credit-card-fraud
 
 
 #### Results Visualization:
-You can run the project from the main function, it has some adjustable parameters that the user can adjust before running main. I have provided screenshots of an example result output in this repository. Mind that the code might need some time to run due to teh size of the dataset. 
+You can run the project from the main function, it has some adjustable parameters that the user can adjust before running main. I have provided screenshots of an example result output in this repository. Mind that the code might need some time to run due to the size of the dataset. 
 
 
 #### Limitations and Future Directions 
-Most limitations of this project stem from teh daatset size, which was quite difficult to work with, especially due to teh confidential PCA information. The code most likley can be optimized to incraese accuracy, however it would require techniques that are perhaps out of the scope of this class. I believe that graph analysis is not teh best methodology to go about this dataset, with regression being the more obvious choice, graph analysis nevertheless could be utilized as well, but at a higher complexity in order to get better results. 
+Most limitations of this project stem from the dataset size, which was quite difficult to work with, especially due to the confidential PCA information. The code most likelyy can be optimized to incraese accuracy, however it would require techniques that are perhaps out of the scope of this class. I believe that graph analysis is not the best methodology to go about this dataset, with regression being the more obvious choice, graph analysis nevertheless could be utilized as well, but at a higher complexity in order to get better results. 
 
