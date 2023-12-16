@@ -48,5 +48,5 @@ You can run the project from the main function, it has some adjustable parameter
 
 
 #### Limitations and Future Directions 
-
+Most limitations of this project stem from teh daatset size, which was quite difficult to work with, especially due to teh confidential PCA information. The code most likley can be optimized to incraese accuracy, however it would require techniques that are perhaps out of the scope of this class. I believe that graph analysis is not teh best methodology to go about this dataset, with regression being the more obvious choice, graph analysis nevertheless could be utilized as well, but at a higher complexity in order to get better results. 
 
